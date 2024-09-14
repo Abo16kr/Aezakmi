@@ -23,6 +23,7 @@ struct ContentView: View {
         .fullScreenCover(isPresented: $showSignInView) {
             OpenningSignUpRegisterView(showSignInView: $showSignInView)
         }
+        
     }
 }
 
